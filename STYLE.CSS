@@ -1,0 +1,41 @@
+/* Universal selector for basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Class selector */
+.main-header {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #005fa3;
+}
+
+/* ID selector */
+#intro {
+    margin: 30px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+}
+
+/* Another class selector */
+.description {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+.styled-image {
+    display: block;
+    margin: 0 auto;
+    border: 4px solid #0077cc;
+    padding: 5px;
+    border-radius: 12px;
+}
